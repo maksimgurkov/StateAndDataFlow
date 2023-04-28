@@ -20,5 +20,5 @@ final class UserSettings: ObservableObject {
 
 struct User: Codable {
     var name = ""
-    var isLoggIn = false
+    var isLoggedIn = false
 }
