@@ -32,7 +32,7 @@ struct LoginView: View {
     
     private func login() {
         if !userSettings.user.name.isEmpty {
-            userSettings.user.flag.toggle()
+            userSettings.user.isLogetIn.toggle()
             DataManager.shared.save(user: userSettings.user)
         }
     }

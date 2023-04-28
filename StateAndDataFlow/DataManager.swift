@@ -24,7 +24,7 @@ class DataManager {
     }
     
     func clear(userManager: UserSettings) {
-        userManager.user.flag = false
+        userManager.user.isLogetIn = false
         userManager.user.name = ""
         userData = nil
     }
