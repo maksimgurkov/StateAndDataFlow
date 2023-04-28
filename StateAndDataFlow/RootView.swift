@@ -13,7 +13,7 @@ struct RootView: View {
     
     var body: some View {
         Group {
-            if userSettings.user.isLogetIn {
+            if userSettings.user.isLoggIn {
                 ContentView()
             } else {
                 LoginView()
